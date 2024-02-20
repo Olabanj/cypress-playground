@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://www.lambdatest.com/selenium-playground/",
+    "chromeWebSecurity": false,
+    "includeShadowDom": true,
+    "viewportHeight":800,
+    "viewportWidth":1500,
+    "watchForFileChanges": false
+}
