@@ -1,0 +1,9 @@
+{
+ "emailField": "#user-name",
+ "passwordField": "[data-test='password']",
+ "loginButton": "[data-test='login-button']",
+ "email": "standard_user",
+ "password": "secret_sauce"
+}
+
+

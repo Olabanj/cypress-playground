@@ -28,3 +28,11 @@ Cypress.Commands.add('dragTo', { prevSubject: 'element' }, (subject, targetSelec
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('TypeAField', (text_field,text_to_insert) => {  
+    cy.get(text_field).should("exist").type(text_to_insert)
+})
+Cypress.Commands.add('ClickButton',(element)=>{
+    cy.get(element).should("exist").and("be.visible").click()
+
+})
